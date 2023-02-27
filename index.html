@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <title>The Sky Wathcers Project</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Oriana Delvalle">
+		<meta name="description" content=" ">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Oriana Delvalle">
+        <meta name="keywords" content=" ">
+<!--        OPEN GRAPH META TAGS       -->
+        <meta property="og:title" content="The Sky Watchers Project">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content=" ">
+        <meta property="og:image" content=" ">
+<!--          GOOGLE FONTS        -->
+        <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Ubuntu:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+<!--            FAVICON             -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<!--            SCRIPT            -->
+        <script src="myScript.js" defer></script>
+	</head>
+    <body>
+        <a id="skip" class="sr-only" href="#main-content">Skip to Main Content</a>
+        <header>
+            <h1 class="sr-only">The Sky Watchers Project</h1>
+            <a href="index.html"><img src="images/darkModeLogo.png" id="mainLogo" alt="The Sky Watchers Project Main logo on white letters"></a>
+            <nav>
+                <h2 class="sr-only">Main Navigation</h2>
+                <ul>
+                    <li><a href="#archive">Archive</a></li>
+                    <li><a href="#submit">Submit</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#socials">Subscribe</a></li>
+                    <li id="toggleImg">
+                        <label for="toggle">
+                        <input type="checkbox" name="Dark-Mode-Toggle" id="toggle">
+                        <img src="images/darkModeToggle.png">
+                        </label>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-content">
+            <section id="archive">
+                <h2>There's no denying the mystery surrounding the possibility of <span class="highlightDark">life beyond out planet</span>.</h2>
+                <p>It's time to stay up-to-date on the latest sightings and encounters of extraterrestrial phenomena. Whether you're a believer or a skeptic, we hold the greatest archive of UFO sightings ever made, take a look and maybe you'll change your mind</p>
+                <!--      START SEACRH BAR       -->
+                <div class="wrapSearch">
+                    <button type="submit" class="searchButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" height="10" width="10" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="10" cy="10" r="7" />
+                            <line x1="21" y1="21" x2="15" y2="15" />
+                            </svg>
+                        </button>
+                    <input type="text" class="searchTerm" placeholder="search the archive">
+                </div>
+                <!--      END SEACRH BAR       -->
+            </section>
+            <section id="submit">
+                <h2><span class="highlightDark2">Check Out</span> The Latest Submissions</h2>
+                <p>Whether you're a seasoned UFO enthusiast or just starting to explore the possibilities, we invite you to join us on this journey of discovery. Subscribe now to stay up-to-date on the latest developments and be part of a community of like-minded individuals who share your passion for the unknown.</p>
+                <p>We understand the importance of staying connected to the larger conversation around UFOs and extraterrestrial life. That's why we encourage our readers to join the discussion, share their own experiences, and connect with others who share their passion for this fascinating subject.</p>
+                <!--      START HORIZONTAL SCROLL       -->
+                <div id="scrollbar">
+                    <div class="element">
+                        <img src="images/city.jpg" alt="panoramic view of city at night">
+                        <p class="elementTitle"><span class="bold">Organized UFO's over Miami</span><br>Submitted by JoeSm45</p>
+                    </div>
+                    <div class="element">
+                        <img src="images/planets.jpeg" alt="top view of three planets aligned">
+                        <p class="elementTitle"><span class="bold">UFO seen in Space Station Live</span><br>Submitted by Max_Tomas</p>
+                    </div>
+                    <div class="element">
+                        <img src="images/lights.jpeg" alt="optical illusion of city light">
+                        <p class="elementTitle"><span class="bold">UFO messed with power in California</span><br>Submitted by Kiki-Brown</p>
+                    </div>
+                    <div class="element">
+                        <img src="images/farm.jpeg" alt="circles made over crops in farm field">
+                        <p class="elementTitle"><span class="bold">Circles on grass at farm</span><br>Submitted by user45_8</p>
+                    </div>
+                </div>
+                <!--      END HORIZONTAL SCROLL       -->
+            </section>
+            <section id="shop">
+                <h2>Gear Up!</h2>
+                <p>Looking to show off your love for all things extraterrestrial? Our exclusive The Sky Watchers Project section has got you covered! We offer a wide variety of clothing options for men, women, and children, all featuring unique and eye-catching designs inspired by UFO sightings, alien encounters, and otherworldly phenomena. So why not add a touch of otherworldly flair to your wardrobe today and shop our UFO apparel section? You never know, you might just attract some extraterrestrial attention!</p>
+                <!--      START QUICK SHOP GRID       -->
+                <div id="shopGrid">
+                    <div class="elementShop">
+                        <img src="images/mockupHoodie.jpg"  width="300" alt="merch hoodie in black">
+                        <label for="product1">The Sky Watchers Hoodie</label><br>
+                        <input type="checkbox" id="product1" name="product1" value="20.99">
+                        <p>20.99 $</p>
+                    </div>
+                    <div class="elementShop">
+                        <img src="images/mockupCup.jpg"  width="300" alt="merch mug in blue">
+                        <label for="product2">The Sky Watchers Mug</label><br>
+                        <input type="checkbox" id="product2" name="product2" value="9.99">
+                        <p>9.99 $</p>
+                    </div>
+                    <div class="elementShop">
+                        <img src="images/mockupPin.jpg"  width="300" alt="merch pin in white">
+                        <label for="product3">The Sky Watchers Pin</label><br>
+                        <input type="checkbox" id="product3" name="product3" value="2.99">
+                        <p>2.99 $</p>
+                    </div>
+                    <div class="elementShop">
+                        <img src="images/mockupTote.jpg" width="300" alt="merch tote bag in white with black letter print">
+                        <label for="product4">The Sky Watchers Tote Bag</label><br>
+                        <input type="checkbox" id="product4" name="product4" value="12.99">
+                        <p>12.99$</p>
+                    </div>
+                </div>
+                <!--      END QUICK SHOP GRID       -->
+                <!--      START CALCULATOR     -->
+                <div id="shoppingCart">
+                    <table id="calculator">
+                        <th colspan="2">Your Shopping Cart</th>
+                        <tr>
+                            <td>Subtotal</td>
+                            <td id="cart-total">0.00$</td>
+                        </tr>
+                        <tr>
+                            <td>TAX</td>
+                            <td id="tax-amount">2%</td>
+                        </tr>
+                        <tr>
+                            <td>Shipping</td>
+                            <td id="shipping-cost">2.00$</td> <!-- Flat shipping, always 2.00$ -->
+                        </tr>
+                        <tr>
+                            <td class="bold">Total</td>
+                            <td id="order-total" class="bold">0.00$</td>
+                        </tr>
+                    </table>
+                    <button id="checkout-btn">Checkout</button>
+                </div>
+                <!--      END CALCULATOR     -->
+            </section>
+        </main>
+        <footer>
+            <div id="socials">
+                <h2>The<br>Sky Watchers<br>Project</h2>
+                <address>
+                    123 Main Street<br>
+                    Suite 456<br>
+                    Anytown, USA.<br>
+                    12345.
+                </address>
+                <p class="tel">(555) 123-4567</p>
+                <h3 class="bold">Follow us on our social media</h3>
+                <div id="socialsGrid">
+                    <!--      twitter SVG    -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                    </svg>
+                    <!--      facebook SVG    -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                    </svg>
+                    <!--      reddit SVG    -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-reddit" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 8c2.648 0 5.028 .826 6.675 2.14a2.5 2.5 0 0 1 2.326 4.36c0 3.59 -4.03 6.5 -9 6.5c-4.875 0 -8.845 -2.8 -9 -6.294l-1 -.206a2.5 2.5 0 0 1 2.326 -4.36c1.646 -1.313 4.026 -2.14 6.674 -2.14z" />
+                        <path d="M12 8l1 -5l6 1" />
+                        <circle cx="19" cy="4" r="1" />
+                        <circle cx="9" cy="13" r=".5" fill="currentColor" />
+                        <circle cx="15" cy="13" r=".5" fill="currentColor" />
+                        <path d="M10 17c.667 .333 1.333 .5 2 .5s1.333 -.167 2 -.5" />
+                    </svg>
+                    <!--      discord SVG    -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-discord" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="9" cy="12" r="1" />
+                        <circle cx="15" cy="12" r="1" />
+                        <path d="M7.5 7.5c3.5 -1 5.5 -1 9 0" />
+                        <path d="M7 16.5c3.5 1 6.5 1 10 0" />
+                        <path d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833 -1.667 3.5 -3c.667 -1.667 .5 -5.833 -1.5 -11.5c-1.457 -1.015 -3 -1.34 -4.5 -1.5l-1 2.5" />
+                        <path d="M8.5 17c0 1 -1.356 3 -1.832 3c-1.429 0 -2.698 -1.667 -3.333 -3c-.635 -1.667 -.476 -5.833 1.428 -11.5c1.388 -1.015 2.782 -1.34 4.237 -1.5l1 2.5" />
+                    </svg>
+                    <!--      youtube SVG    -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="3" y="5" width="18" height="14" rx="4" />
+                        <path d="M10 9l5 3l-5 3z" />
+                    </svg>
+                </div>
+                <!--      START SUBSCRIPTION FORM     --> 
+                <h2 id="form">Don't miss out on the conversation.</h2> 
+                <form id="subscription" method="post" action="https://wp.zybooks.com/form-viewer.php">
+                    <label for="firstName">First Name<span class="required bold">*</span></label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Enter first name" >
+                    <label for="lastName">Last Name<span class="required bold">*</span></label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Enter last name" >
+                    <label for="email">Email<span class="required bold">*</span></label>
+                    <input type="text" name="email" id="email" placeholder="you@domain.com" >
+                    <input class="standardButton" type="submit" id="mySubmit" value="Subscribe">
+                </form>
+                <!--      END SUBSCRIPTION FORM     --> 
+            </div>
+            <p class="copyright">Copyright &copy; 2023 Oriana Delvalle</p>
+        </footer>
+    </body>
+</html>
